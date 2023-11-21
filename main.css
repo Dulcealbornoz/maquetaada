@@ -1,0 +1,356 @@
+.contenedor {
+  width: 100%;
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #f5f4f6;
+  padding: 1.5%;
+  padding-right: 5%;
+  justify-content: space-between;
+  background-attachment: scroll;
+  position: sticky;
+  top: 0;
+}
+
+#titulo {
+  font-size: 23px;
+  color: #e948b9;
+  margin-left: 5%;
+  text-decoration: none;
+}
+
+nav a {
+  color: rgb(58, 58, 58);
+  display: inline-block;
+  justify-content: center;
+  text-indent: 30px;
+  font-size: 15px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #e948b9;
+}
+
+.aprende {
+  display: block;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(media/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: inherit;
+  padding: 130px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+}
+
+#btn {
+  background-color: #e948b9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  color: white;
+  border-radius: 5px;
+  border-color: #e948b9;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.quienes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+  margin-bottom: 50px;
+}
+
+#imagen-programadoras {
+  background-image: url(media/programadorassssss.png);
+  background-size: cover;
+  background-position: top;
+  float: left;
+  height: 450px;
+  width: 360px;
+}
+
+.section1 {
+  color: black;
+  margin-left: 150px;
+}
+.section1 h2 {
+  font-size: 38px;
+  margin-bottom: 60px;
+}
+.fuxia {
+  color: #e948b9;
+  font-size: 38px;
+  padding-left: 3px;
+}
+
+.nuestros {
+  display: flex;
+  padding: 130px;
+  background-color: #1d1c1d;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+#titulonuestros {
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 65px;
+  font-weight: bold;
+}
+
+.cajas {
+  display: flex;
+}
+
+.cajas div {
+  background-color: rgb(99, 98, 98);
+  width: 350px;
+  height: 380px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
+.cajas h2 {
+  font-size: 30px;
+  color: #ffffff;
+  margin: 20px;
+}
+
+.cajas p {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+#front {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(media/front-end-cropped.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 390px;
+}
+
+#full {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(media/full-stack-cropped.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 390px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#python {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(media/python-cropped.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 390px;
+}
+
+#info {
+  background-color: #e948b9;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 28px;
+  padding-right: 28px;
+  color: white;
+  border-radius: 5px;
+  border-color: #e948b9;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.caracteristicas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  margin-bottom: 50px;
+  margin-left: 120px;
+  margin-right: 130px;
+}
+
+.caracteristicas li {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  height: 45px;
+  list-style-image: url(media/verificar2.gif);
+}
+
+#ellas {
+  background-image: url(media/ellas.png);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 450px;
+}
+
+.aplicaya {
+  padding: 150px;
+  background-color: #ee5cc3;
+  text-align: center;
+  font-size: 45px;
+  color: #f5f5f4;
+}
+
+footer {
+  display: flex;
+  padding: 30px;
+  color: #737373;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    padding-right: 1.5%;
+  }
+  #titulo {
+    padding-bottom: 1%;
+    padding-left: 8px;
+  }
+  nav a {
+    padding-bottom: 1%;
+  }
+
+
+  .aprende {
+    width: 48%;
+    display: block;
+    align-items: center;
+  }
+  .aprende h1{
+    font-size: 48px;
+    text-align: center;
+    width: fit-content;
+    align-items: center;
+  }
+
+
+  .quienes {
+    display: flex;
+    flex-direction: column;
+  }
+  .section1 {
+    width: 400px;
+    height: 400px;
+    margin-left: 0;
+    text-align: center;
+    align-items: center;
+  }
+  .section1 h2{
+    font-size: 40px;
+  }
+  .section1 p{
+    font-size: 25px;
+  }
+  #imagen-programadoras{
+    display: none;
+  }
+  
+  .nuestros{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 800px;
+    padding: 0;
+    justify-content: space-between;
+  }
+  #titulonuestros{
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-left: 45px;
+  }
+  .cajas div{
+    width: 280px;
+
+  }
+  .cajas{
+    display: flex;
+    flex-direction: column;
+    margin-left: 115px;
+  }
+  .cajas h2{
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .cajas p{
+    display: none;
+  }
+  #front{
+    height: 150px;
+    margin-bottom: 18px;
+    background-size: cover;
+  }
+  #full{
+    margin-left: 0;
+    margin-right: 0;
+    height: 150px;
+    margin-bottom: 18px;
+    background-size: cover;
+  }
+  #python{
+    height: 150px;
+    background-size: cover;
+  }
+
+  .caracteristicas {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 286px;
+    margin-left: 0;
+  }
+  #ellas{
+    height: 350px;
+    width: 350px;
+
+  }
+
+  .aplicaya {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 186px;
+
+  }
+
+  footer {
+    width: 426px;
+  }
+}
